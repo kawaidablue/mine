@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.top-wrap {
+  width: 100%;
+  overflow: visible;
+  height: 15vh;
+  background-image: url(../img/our_cranes2.svg);
+  background-repeat: no-repeat;
+  background-position: 10% 53%;
+  background-size: cover;
+}
+.under__ttl {
+  font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+.under__subttl {
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 15px;
+}
+.under__ttl {
+  width: 300px;
+  padding: 70px 0 250px 0;
+  text-align: center;
+  background-color: #ffffff;
+}
+.under__body {
+  flex: 1;
+  padding: 70px 0 250px 0;
+  background-color: #f8f8f8;
+}
+.under__body__con {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.under-wrap {
+  display: flex;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.company__table tr {
+  border-top: #000 1px solid;
+  border-bottom: #000 1px solid;
+}
+.company__table th {
+  text-align: left;
+  font-weight: 500;
+}
+.company__table td {
+  padding: 30px 0;
+  line-height: 2;
+  font-weight: 500;
+}
+.company__table td a {
+  color: #000;
+}
+.table__list li {
+  list-style: none;
+}

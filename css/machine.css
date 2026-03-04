@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* =========================
+  保有機械ページ（under__body__con 内）
+========================= */
+/* 上：写真 */
+.mc-hero {
+  margin: 10px 0 22px;
+}
+.mc-hero__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.mc-hero__item {
+  margin: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e9e9e9;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+.mc-hero__item img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+}
+.mc-hero__note {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: #000000;
+}
+
+/* カテゴリナビ */
+.mc-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 60px 0 34px;
+}
+.mc-nav__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 16px;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.04);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+
+/* セクション */
+.mc-sec {
+  margin: 0 0 44px;
+}
+.mc-sec--last {
+  margin-bottom: 30px;
+}
+.mc-sec__head {
+  margin-bottom: 18px;
+}
+.mc-sec__title {
+  margin: 0;
+  font-size: 24px;
+}
+.mc-sec__lead {
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: #666;
+}
+
+/* テーブル */
+.mc-tablewrap {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid #f0f0f0;
+  background-color: #fff;
+}
+.mc-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px; /* 横スクロール発生点 */
+}
+.mc-table th {
+  background: #ffffff;
+  padding: 12px 12px;
+  text-align: left;
+  font-size: 16px;
+  border-bottom: 1px solid #000000;
+  white-space: nowrap;
+}
+.mc-table td {
+  padding: 12px 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #ffffff;
+  white-space: nowrap;
+}
+.mc-table tbody tr:hover {
+  background: #fff9e5;
+}
+
+/* PDFボタン */
+.mc-pdf {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 85%;
+  background: #f4b400;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+/* SP */
+@media (max-width: 900px) {
+  .mc-hero__grid {
+    grid-template-columns: 1fr;
+  }
+  .mc-hero__item img {
+    height: 220px;
+  }
+  .mc-sec {
+    padding: 22px 16px;
+  }
+}
+.mc-pdf__arrow {
+  font-size: 10px;
+  line-height: 0.5;
+  margin-left: 5px;
+}
