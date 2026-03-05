@@ -1,5 +1,5 @@
 .contact-form {
-  padding: 60px;
+  padding: 60px 40px;
   background-color: #fff;
 }
 
@@ -11,13 +11,14 @@
 }
 
 .contact-form__item label {
-  width: 180px;
+  width: 200px;
   font-size: 16px;
+  font-weight: bold;
 }
 
 .contact-form__item span {
   margin-left: 4px;
-  color: #000000;
+  color: #d80000;
 }
 
 .contact-form__item input,
@@ -30,7 +31,7 @@
 }
 
 .contact-form textarea {
-  height: 180px;
+  height: 200px;
   resize: none;
 }
 
@@ -46,8 +47,37 @@
   padding: 14px 80px;
   font-size: 18px;
   cursor: pointer;
+  border: 1px solid #000000;
 }
 
 .contact-form__btn button:hover {
   opacity: 0.8;
+}
+.contact-lead {
+  line-height: 1.8;
+}
+
+.contact-lead h5 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.contact-lead p {
+  font-size: 16px;
+}
+.contact-form__radio {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.contact-form__radio label {
+  align-items: center;
+  font-size: 16px;
+}
+.contact-form__radio input[type="radio"] {
+  transform: scale(1.2);
+  margin: 0 5px 2px 0;
 }

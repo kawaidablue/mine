@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.article-post__header {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.article-post__title {
+  font-size: 24px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.article-post__date {
+  margin-top: 16px;
+  display: block;
+  font-size: 14px;
+}
+
+.article-post__img {
+  margin: 40px 0;
+}
+
+.article-post__img img {
+  width: 100%;
+}
+
+.article-post__content p {
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.article-post__links {
+  margin-top: 20px;
+}
+
+.article-post__links li {
+  margin-bottom: 10px;
+}

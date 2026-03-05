@@ -88,7 +88,7 @@
 }
 .rec__con {
   text-align: center;
-  padding: 40px 0;
+  padding: 20px 0 35px 0;
   border-radius: 12px;
   background-position: 0 10%;
   border: 2px #000 solid;
@@ -100,7 +100,7 @@
   font-optical-sizing: auto;
   font-weight: bold;
   text-align: center;
-  font-size: 48px;
+  font-size: 42px;
   position: relative;
   z-index: 1;
   margin-bottom: 5px;
@@ -111,8 +111,8 @@
   font-size: 18px;
 }
 .rec__con__body p {
-  line-height: 2.5;
-  font-size: 18px;
+  line-height: 2;
+  font-size: 16px;
 }
 .rec__con__body {
   display: flex;
@@ -135,7 +135,7 @@
   color: #000;
   text-decoration: none;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   text-align: right;
 }
 .rec__body__con__btn span {

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.news__item {
+  display: flex;
+  padding: 40px 10px;
+  gap: 15px;
+  border-top: 1px solid #000;
+  align-items: center;
+}
+.news__item:last-child {
+  border-bottom: 1px solid #000;
+}
+.news__item a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.news__date {
+  font-size: 14px;
+  font-weight: 500;
+}
