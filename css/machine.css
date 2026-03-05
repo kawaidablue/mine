@@ -101,6 +101,7 @@
   font-size: 14px;
   border-bottom: 1px solid #ffffff;
   white-space: nowrap;
+  font-weight: bold;
 }
 .mc-table tbody tr:hover {
   background: #fff9e5;
