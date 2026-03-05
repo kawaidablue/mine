@@ -81,3 +81,32 @@
   transform: scale(1.2);
   margin: 0 5px 2px 0;
 }
+@media (max-width: 800px) {
+  .contact-form__item {
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .contact-form__item input[type="text"],
+  .contact-form__item input[type="email"],
+  .contact-form__item input[type="tel"],
+  .contact-form__item textarea {
+    width: 90%;
+  }
+  .contact-form {
+    padding: 40px 20px;
+  }
+}
+@media (max-width: 540px) {
+  .contact-lead h5 {
+    font-size: 20px;
+  }
+  .contact-lead p {
+    font-size: 14px;
+  }
+  .contact-form__item label {
+    width: 200px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}

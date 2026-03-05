@@ -62,7 +62,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header id="header" class="header">
+        <header id="header" class="header">
       <div class="header-wrap">
         <div class="header-wrap__logo">
           <a href="index.html">
@@ -81,7 +81,7 @@
             <a href="tel:0524118511"
               ><span>
                 <img src="img/tel.svg" alt="電話番号">
-              
+              </span>
               052-411-8511
               </a
             >
@@ -90,12 +90,37 @@
             <a href="contact.html"
               ><span>
                 <img src="img/mail_black.svg" / alt="お問い合わせ">
-              
+              </span>
               お問い合わせ
               </a
             >
           </div>
         </div>
+        <!-- ▼ ハンバーガー（1280px以下で表示） -->
+<button class="header-burger" type="button" aria-label="メニューを開く" aria-expanded="false">
+  <span class="header-burger__line"></span>
+  <span class="header-burger__line"></span>
+  <span class="header-burger__line"></span>
+</button>
+
+<!-- ▼ ドロワー -->
+<div class="header-drawer" aria-hidden="true">
+  <div class="header-drawer__overlay"></div>
+
+  <div class="header-drawer__panel" role="dialog" aria-label="サイトメニュー">
+    <button class="header-drawer__close" type="button" aria-label="メニューを閉じる">×</button>
+
+    <nav class="header-drawer__nav">
+      <a href="business.html">事業内容</a>
+      <a href="machine.html">保有機械</a>
+      <a href="company.html">会社概要</a>
+      <a href="news.html">お知らせ</a>
+      <a href="rec.html">採用情報</a>
+      <a class="header-drawer__cta" href="contact.html">お問い合わせ</a>
+      <a class="header-drawer__tel" href="tel:0524118511">TEL：052-411-8511</a>
+    </nav>
+  </div>
+</div>
       </div>
     </header>
     <main>
@@ -213,5 +238,6 @@
         <p>© 2026mine-s.jp. All rights reserved.</p>
       </div>
     </footer>
+        <script src="js/ham.js" defer></script>
   </body>
 </html>

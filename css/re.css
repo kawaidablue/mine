@@ -141,3 +141,43 @@
 .rec__body__con__btn span {
   padding-left: 10px;
 }
+@media (max-width: 540px) {
+  .rec__ttl {
+    font-size: 20px;
+  }
+  .rec__cardTxt {
+    font-size: 16px;
+  }
+  .rec__con {
+    text-align: center;
+    padding: 20px 0 30px 0;
+    border-radius: 12px;
+    background-position: 0 10%;
+    border: 2px #000 solid;
+    box-shadow: 3px 3px #000;
+    margin-top: 40px;
+  }
+  .rec__con__head h4 {
+    font-size: 28px;
+  }
+  .rec__con__head p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .rec__con__body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .rec__con__body p {
+    line-height: 1.8;
+    font-size: 12px;
+  }
+  .rec__body__con__btn a {
+    font-size: 14px;
+  }
+  .rec__body__con__btn a {
+    background: #f4b400;
+    padding: 15px 15px 15px 20px;
+  }
+}

@@ -20,3 +20,15 @@
   font-size: 14px;
   font-weight: 500;
 }
+@media (max-width: 540px) {
+  .news__item {
+    flex-direction: column;
+    text-align: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px 5px;
+  }
+  .news__title {
+    font-size: 14px;
+  }
+}

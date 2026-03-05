@@ -41,3 +41,22 @@
 .under-wrap {
   display: flex;
 }
+@media (max-width: 1000px) {
+  .under-wrap {
+    flex-direction: column;
+  }
+  .under__ttl {
+    width: 95%;
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+  }
+  .under__body {
+    padding: 60px 0 200px 0;
+  }
+}
+@media (max-width: 800px) {
+  .under__body__con {
+    width: 95%;
+    gap: 40px;
+  }
+}

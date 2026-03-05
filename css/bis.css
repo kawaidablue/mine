@@ -118,3 +118,22 @@
   line-height: 2;
   color: #000000;
 }
+@media (max-width: 1000px) {
+  .biz2__leadMain {
+    font-size: clamp(1.125rem, 0.3913rem + 2.1739vw, 1.75rem);
+  }
+  .biz2__leadSub span {
+    font-size: clamp(1.125rem, 0.3913rem + 2.1739vw, 1.75rem);
+  }
+  .biz2__leadSub {
+    font-size: clamp(1rem, 0.413rem + 1.7391vw, 1.5rem);
+  }
+}
+@media (max-width: 540px) {
+  .biz2__ttl {
+    font-size: 20px;
+  }
+  .biz2__cardTxt {
+    font-size: 16px;
+  }
+}

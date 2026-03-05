@@ -38,3 +38,11 @@
 .article-post__links li {
   margin-bottom: 10px;
 }
+
+@media (max-width: 540px) {
+  .article-post__title {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: bold;
+  }
+}

@@ -18,3 +18,16 @@
 .table__list li {
   list-style: none;
 }
+@media (max-width: 540px) {
+  .company__table tr {
+    font-size: 14px;
+  }
+  .company__table td {
+    padding-left: 5px;
+  }
+}
+@media (max-width: 340px) {
+  .company__table tr {
+    font-size: 13px;
+  }
+}
